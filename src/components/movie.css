@@ -1,0 +1,33 @@
+.movies-list {
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.movies-list>div {
+    display: flex;
+    /* border: 1px solid; */
+    height: 35px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.movies-list>div h4 {
+    margin-left: 40px;
+}
+
+.movies-list>div h4:first-child {
+    margin-left: 0px;
+}
+
+select,
+option {
+    width: 300px;
+}
